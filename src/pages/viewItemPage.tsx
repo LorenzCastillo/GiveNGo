@@ -111,6 +111,7 @@ export default function ViewItemPage() {
                             className="h-full w-full object-cover"
                             width={2500}
                             height={2500}
+                            unoptimized={true}
                         />
                     </div>
                 </div>
