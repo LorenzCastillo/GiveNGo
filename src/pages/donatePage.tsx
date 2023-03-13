@@ -251,7 +251,7 @@ export default function DonatePage() {
 
                                         <div className="relative w-full ml-2 col-span-2 lg:col-span-1 mt-20">
                                             <div className="absolute bottom-0 right-0 mr-2">
-                                                <button type="submit" onClick={() => postItem()} className="w-24 px-4 py-2 mt-8 rounded-2xl text-xl bg-gradient-to-r from-custom-post_button_left to-custom-post_button_right">POST</button>
+                                                <button type="submit" onClick={() => postItem()} className="w-24 px-4 py-2 mt-8 rounded-2xl text-xl text-white bg-gradient-to-r from-custom-post_button_left to-custom-post_button_right">POST</button>
                                             </div>
                                         </div>
                                     </div>
