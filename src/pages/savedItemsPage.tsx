@@ -33,9 +33,9 @@ export default function SavedItemsPage() {
                 <Navbar isSavedItemsPage={true}/>
 
                 {data.length == 0 ? (
-                    <h1 className="select-none font-lato-bold text-white text-3xl drop-shadow-lg mt-8 ml-56">You have not saved any items yet</h1>
+                    <h1 className="select-none font-lato-bold text-white text-3xl drop-shadow-lg mt-8 ml-[15%] mr-[15%]">You have not saved any items yet</h1>
                 ): (
-                    <h1 className="hidden select-none font-lato-bold text-white text-3xl drop-shadow-lg mt-12 ml-56">You have not saved any items yet</h1>
+                    <h1 className="hidden select-none font-lato-bold text-white text-3xl drop-shadow-lg mt-12 ml-[15%] mr-[15%]">You have not saved any items yet</h1>
                 )}
 
                 <div className="flex justify-center">
